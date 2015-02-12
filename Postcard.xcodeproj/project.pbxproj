@@ -13,6 +13,8 @@
 		3B801B341A8B37D8005E23C4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B801B331A8B37D8005E23C4 /* Images.xcassets */; };
 		3B801B371A8B37D8005E23C4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3B801B351A8B37D8005E23C4 /* LaunchScreen.xib */; };
 		3B801B431A8B37D8005E23C4 /* PostcardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B801B421A8B37D8005E23C4 /* PostcardTests.swift */; };
+		3BF6968C1A8C2C5800C4B19D /* Haleakala-Sunrise.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3BF6968B1A8C2C5800C4B19D /* Haleakala-Sunrise.jpg */; };
+		3BF6968E1A8C2F8C00C4B19D /* communication.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BF6968D1A8C2F8C00C4B19D /* communication.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +38,8 @@
 		3B801B3C1A8B37D8005E23C4 /* PostcardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PostcardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B801B411A8B37D8005E23C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3B801B421A8B37D8005E23C4 /* PostcardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostcardTests.swift; sourceTree = "<group>"; };
+		3BF6968B1A8C2C5800C4B19D /* Haleakala-Sunrise.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Haleakala-Sunrise.jpg"; sourceTree = "<group>"; };
+		3BF6968D1A8C2F8C00C4B19D /* communication.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = communication.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,8 @@
 		3B801B2A1A8B37D8005E23C4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3BF6968D1A8C2F8C00C4B19D /* communication.png */,
+				3BF6968B1A8C2C5800C4B19D /* Haleakala-Sunrise.jpg */,
 				3B801B2B1A8B37D8005E23C4 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -194,6 +200,8 @@
 			files = (
 				3B801B321A8B37D8005E23C4 /* Main.storyboard in Resources */,
 				3B801B371A8B37D8005E23C4 /* LaunchScreen.xib in Resources */,
+				3BF6968C1A8C2C5800C4B19D /* Haleakala-Sunrise.jpg in Resources */,
+				3BF6968E1A8C2F8C00C4B19D /* communication.png in Resources */,
 				3B801B341A8B37D8005E23C4 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +415,7 @@
 				3B801B481A8B37D8005E23C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3B801B491A8B37D8005E23C4 /* Build configuration list for PBXNativeTarget "PostcardTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +424,7 @@
 				3B801B4B1A8B37D8005E23C4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
